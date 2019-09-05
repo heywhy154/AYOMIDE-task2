@@ -15,7 +15,7 @@ my task
 <body>
 <header >
 <div class="container">
-<h1>Ayoola Ayomide Abraham</h1>
+<h1 style="color:green;background-color:gray;"> Ayoola Ayomide Abraham </span> </h1>
 <i>13 owolabi street, ibadan oyo state. </i> </br> <i> 09064903399 </i></br> <i>heywhy154@gmail.com </i>
 </div>
 </header>
@@ -108,33 +108,83 @@ DEMMY GLOBAL, OGBOMOSHO OYO STATE - <br /> IT Support /Social Media <br />
 </table>
              <!-- The CV details end --->
 </div>
-<div id='forms' class='new-section' action="message.html" method="post" onSubmit=" return validateTextbox();">
-<div id="form" class='section-body'>
+<div>
+	<style>
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=message], {
+   width: 50%;
+  padding: 100px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</div>
 <fieldset>
-<legend><strong>Contact Form</strong></legend>
-<form	action="submited.html" method="post">
-<div class="struct">
-<label for= 'firstname'>Firstname:</label>
-<input type="text" name="firtsname" id="firstname" placeholder="Firstname" minlength="4" ><br/>
-</div>
-<div class="struct">
-<label for= 'firstname'>Surname:</label>
-<input type="text" name="surname" id="surname"placeholder="Surname" minlength="4" ><br/>
-</div>
-<div class="struct">
-<label for='firstname'>Email:</label>
-<input type="email"	id="email"name="email" required> <br/>
-</div>
-<div> 
-<label for= 'Title'>Title:</label>
-<input type="text" name="title" id="title" placeholder="Title" minlength="4" ><br/>
-</div>
+
+<h3 align="center"> <span style="color:white; background-color: gray"> CONTACT FORM </h3>
+<br />
+<br />
 <div>
-<label for= 'Textarea'>Message:</label> <br/>
-<textarea	name="message"	id="textarea" rows="10" minlength="20"  > </textarea>
-</div>
-<div>
-<p><input type="submit" value="submit" > <input type="reset" value="Reset"> </p>
+  <form action="/action_page.php">
+    <label for="fname"> <span style="color:black; background-color: gray"> Full Name</label>
+    <br />
+    <input type="text" required id="fname" name="firstname" minlength="4" placeholder="input Your name..">
+
+    <br />
+    
+     <label for="email"> <span style="color:black; background-color: gray">Email</label>
+     <br />
+    <input type="text" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" title="Input a valid email adress." required id="email" name="" placeholder="input your email..">
+
+    <br />
+
+  <label for="Title"> <span style="color:black; background-color: gray">Title</label>
+  <br />
+    <input type="text" required id="Title" name="" placeholder="your title..">
+
+    <br />
+
+  <div class="row">
+    <div class="col-25">
+      <label for="message"> <span style="color:black; background-color: gray">Message</label>
+    </div>
+    <div class="col-75">
+      <textarea required id="message" name="message" minlength="20" placeholder="Write something.." style="height:20px;  padding: 50px 250px;"></textarea>
+    </div>
+  </div>
+        <br />
+    </select>
+  
+    <input type="submit" value="Submit">
 </fieldset>
 </div>
 </form>
@@ -143,9 +193,5 @@ DEMMY GLOBAL, OGBOMOSHO OYO STATE - <br /> IT Support /Social Media <br />
 
 </div>
 </section>
-
-<footer id=base>
-<p>Abdulhakeem's CV</p>
-</footer>
 </body>
 </html>
