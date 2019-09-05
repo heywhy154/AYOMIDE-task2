@@ -89,5 +89,49 @@ DEMMY GLOBAL, OGBOMOSHO OYO STATE - <br /> IT Support /Social Media <br />
 </ul>
 </table>
              <!-- The CV details end --->
+</div>
+<div class="box">
+<h2 class="secondheader"> languages </h2>
+<ul>
+<li>English</li>
+<li>Portuguese</li>
+<li>Malay</li>
+</ul>
+</div>
+<div id='forms' class='new-section' action="message.html" method="post" onSubmit=" return validateTextbox();">
+<div id="form" class='section-body'>
+<fieldset>
+<legend><strong>Contact Form</strong></legend>
+<form	action="submited.html" method="post">
+<div class="struct">
+<label for= 'firstname'>Firstname:</label>
+<input type="text" name="firtsname" id="firstname" placeholder="Firstname" minlength="4" ><br/>
+</div>
+<div class="struct">
+<label for= 'firstname'>Surname:</label>
+<input type="text" name="surname" id="surname"placeholder="Surname" minlength="4" ><br/>
+</div>
+<div class="struct">
+<label for='firstname'>Email:</label>
+<input type="email"	id="email"name="email" required> <br/>
+</div>
+<div> 
+<label for= 'Title'>Title:</label>
+<input type="text" name="title" id="title" placeholder="Title" minlength="4" ><br/>
+</div>
+<div>
+<label for= 'Textarea'>Message:</label> <br/>
+<textarea	name="message"	id="textarea" rows="10" minlength="20"  > </textarea>
+</div>
+<div>
+<p><input type="submit" value="submit" > <input type="reset" value="Reset"> </p>
+</fieldset>
+</div>
+</form>
+</div>
+</div>
+
+</div>
+</section>
 </body>
 </html>
