@@ -1,15 +1,33 @@
 
+<!DOCTYPE>
 <html>
+
 <head>
-<title> my task </title>
+<meta charset= "charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>
+my task
+</title>
+<script src="my task.js">  </script>
+<link rel="stylesheet" type="text/css" href="./my task.css">
 </head>
+
 <body>
-<h1 align="center"> <span style="color:black;background-color:gray;"> AYOMIDE RESUME </span> </h1>
-<h2 align="center"> <span style="color:black;background-color:gray;"> AYOOLA AYOMIDE ABRAHAM </span>
-</h2>
-<hr />
-<p> I am a committed,diligent and hardworking person. Perfection is the watchword and I have good interpersonal and communication skills. I aim to be a value provider, focusing at achieving maximum excellence, and also aim to impact and solve myriad problems encountered by today's humanity. </p>
-<br />
+<header >
+<div class="container">
+<h1>Ayoola Ayomide Abraham</h1>
+<i>13 owolabi street, ibadan oyo state. </i> </br> <i> 09064903399 </i></br> <i>heywhy154@gmail.com </i>
+</div>
+</header>
+<figure id="fig">
+<img src="https://res.cloudinary.com/heywhy/image/upload/v1567210643/IMG_20190811_132923_tillgl.jpg" alt= "picture" height="100" width="100 >
+</figure>
+<section id="sect1" >
+<div class="container">
+<p> <strong class=secondheader>Objective:</strong>I am a committed,diligent and hardworking person. Perfection is the watchword and I have good interpersonal and communication skills. I aim to be a value provider, focusing at achieving maximum excellence, and also aim to impact and solve myriad problems encountered by today's humanity.</p>
+<hr/>
+</div>
+</section>
 <h6> <strong> <span style="color:green;background-color:gray;"> CONTACT INFORMATION</strong></span></h6>
 <table>
 <ul>
@@ -90,14 +108,6 @@ DEMMY GLOBAL, OGBOMOSHO OYO STATE - <br /> IT Support /Social Media <br />
 </table>
              <!-- The CV details end --->
 </div>
-<div class="box">
-<h2 class="secondheader"> languages </h2>
-<ul>
-<li>English</li>
-<li>Portuguese</li>
-<li>Malay</li>
-</ul>
-</div>
 <div id='forms' class='new-section' action="message.html" method="post" onSubmit=" return validateTextbox();">
 <div id="form" class='section-body'>
 <fieldset>
@@ -133,5 +143,9 @@ DEMMY GLOBAL, OGBOMOSHO OYO STATE - <br /> IT Support /Social Media <br />
 
 </div>
 </section>
+
+<footer id=base>
+<p>Abdulhakeem's CV</p>
+</footer>
 </body>
 </html>
