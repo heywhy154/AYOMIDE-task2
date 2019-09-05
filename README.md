@@ -24,7 +24,7 @@ my task
 </figure>
 <section id="sect1" >
 <div class="container">
-<p> <strong class=secondheader>Objective:</strong>I am a committed,diligent and hardworking person. Perfection is the watchword and I have good interpersonal and communication skills. I aim to be a value provider, focusing at achieving maximum excellence, and also aim to impact and solve myriad problems encountered by today's humanity.</p>
+<p> <span style="color:green;background-color:gray;"> <strong class=secondheader>Objective </span>:</strong>I am a committed,diligent and hardworking person. Perfection is the watchword and I have good interpersonal and communication skills. I aim to be a value provider, focusing at achieving maximum excellence, and also aim to impact and solve myriad problems encountered by today's humanity.</p>
 <hr/>
 </div>
 </section>
